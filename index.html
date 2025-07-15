@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<header>Timer</header>
+</head>
+
+<body>
+
+<div id="Settings">
+<input id=hrs type="text" required>:<input  id="mins" type="text"required>:<input  id="secs" type="text" required>
+</div>
+
+<button id="J" onclick="startTimer()">Start the Timer!</button>
+<button id="Pause" onclick="pauseTimer()">Pause</button>
+<button id="Rest" onclick="unpauseTimer()">Unpause</button>
+<button id="Off" onclick="reset()">Reset</button>
+<p id="timer">00:00:00</p>
+
+<audio id="sound" controls src="https://cdn.pixabay.com/audio/2022/03/14/audio_d164fb27ce.mp3"></audio>
+  
+  </body>
+  <script src="script.js">
+  
+  </script>
+
+</html>
