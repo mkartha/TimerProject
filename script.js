@@ -30,6 +30,9 @@ document.getElementById("J").disabled=true;
   intervalId = setInterval(() =>{ 
     if(tSec===0 || off){
       clearInterval(intervalId);
+      if(tSec===0){
+      document.getElementById("sound").play();
+      }
       return;
     }
     tSec--;
